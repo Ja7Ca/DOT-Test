@@ -15,7 +15,7 @@ const AppRoute = () => {
     return (
         <BrowserRouter>
             <Routes>
-                <Route index element={"Landing Page"} />
+                <Route index element={<Navigate to="/auth/login"/>} />
                 <Route
                     path="auth"
                     element={
