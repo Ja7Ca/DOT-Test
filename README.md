@@ -7,7 +7,7 @@ Challenge 1.
 - Clone Repo Ini
 
 ```
-  git clone
+  git clone https://github.com/Ja7Ca/DOT-Test.git
 ```
 
 - Masuk Ke Folder
@@ -40,14 +40,14 @@ Auth
 
 Dashboard
 - Task
-  Tambah Task
-  Update Status
-  Hapus Task
+  - Tambah Task
+  - Update Status
+  - Hapus Task
 - Product
-  Product Detail
-  Add To Cart
+  - Product Detail
+  - Add To Cart
 - Cart
-  Tampilan Cart
+  - Tampilan Cart
 
 ### INFO PENTING
 
