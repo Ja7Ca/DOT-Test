@@ -1,0 +1,75 @@
+.card-task{
+  max-width: 20rem;
+  border-radius: 1em;
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  background-color: rgb(110, 14, 14);
+  position: relative;
+}
+
+.card-task.finished{
+  background-color: rgb(13, 117, 13);
+}
+
+.toggle-card-task{
+  position: absolute;
+  bottom: .5rem;
+  right: .5rem;
+  cursor: pointer;
+  color: green;
+  font-size: 1.5rem;
+}
+
+.delete-card-task{
+  position: absolute;
+  top: .5rem;
+  right: .5rem;
+  cursor: pointer;
+  color: red;
+  font-size: 1.5rem;
+}
+
+.card-task.finished .toggle-card-task{
+  color: red;
+}
+
+.card-product{
+  max-width: 20rem;
+  border-radius: 1em;
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  background-color: white;
+  position: relative;
+  text-decoration: none;
+  color: black;
+}
+
+.card-product img{
+  width: 100%;
+  border-radius: 1em;
+}
+
+.card-product .info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.card-cart{
+  border-radius: 1em;
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  background-color: white;
+  position: relative;
+}
+
+.card-cart img{
+  width: 100%;
+  border-radius: 1em;
+}
+
+.card-cart .info{
+  padding: 0 1rem;
+  margin-top: 1rem;
+}

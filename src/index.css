@@ -1,0 +1,83 @@
+:root{
+  --text-primary: #333;
+  --text-secondary: #666;
+  --color-primary: #8F87F1;
+  --color-secondary: #C68EFD;
+  --sidebar-not-active: 4rem;
+  --sidebar-active: 12rem;
+}
+
+body{
+  margin: 0;
+}
+
+.container{
+  width: 90%;
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.section-full{
+  width: 100svw;
+  height: 100svh;
+}
+
+.bg-primary{
+  background-color: var(--color-primary);
+}
+
+.d-flex{
+  display: flex;
+}
+
+.justify-content-center{
+  justify-content: center;
+}
+
+.justify-content-between{
+  justify-content: space-between;
+}
+
+.align-items-center{
+  align-items: center;
+}
+
+.mx-auto {
+  margin: 0 auto;
+}
+
+.card-auth{
+  max-width: 20rem;
+  border-radius: 1em;
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  background-color: white;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.form-block{
+  margin: 1rem 0;
+  width: 100%;
+}
+
+.form-label{
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.form-input{
+  width: 100%;
+  padding: 0.5rem;
+  margin: 0 2rem 0 0;
+  border: 1px solid #ccc;
+  border-radius: 0.5em;
+  box-sizing: border-box;
+  display: block;
+}
+
+.input-error{
+  color:red;
+}

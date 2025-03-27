@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Task 1",
+    "description": "Description 1",
+    "finished": false,
+    "user": "admin"
+  },
+  {
+    "id": 2,
+    "name": "Task 2",
+    "description": "Description 2",
+    "finished": true,
+    "user": "admin"
+  },
+  {
+    "id": 3,
+    "name": "Task 3",
+    "description": "Description 3",
+    "finished": false,
+    "user": "admin"
+  },
+  {
+    "id": 4,
+    "name": "Task 4",
+    "description": "Description 4",
+    "finished": false,
+    "user": "testing"
+  }
+]
